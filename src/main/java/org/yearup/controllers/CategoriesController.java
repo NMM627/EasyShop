@@ -14,7 +14,9 @@ import org.yearup.models.Product;
 import java.util.List;
 
 
-@RestController @RequestMapping ("/") @CrossOrigin
+@RestController
+@RequestMapping("/")
+@CrossOrigin
 public class CategoriesController
 {
     private CategoryDao categoryDao;
